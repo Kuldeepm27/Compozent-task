@@ -14,14 +14,14 @@ class Student:
             return sum(self.grades) / len(self.grades)
         return 0
 
-student = Student("Harsh", 22, [85, 90, 95])
+student = Student("Kuldeep", 22, [80, 70, 92])
 student.display_details()
 print(f"Average Grade: {student.calculate_average()}")
 
-student = Student("Rohit", 25, [70, 90, 45])
+student = Student("Kartik", 22, [70, 60, 85])
 student.display_details()
 print(f"Average Grade: {student.calculate_average()}")
 
-student = Student("Rishabh", 23, [89, 97, 78])
+student = Student("Shivam", 21, [99, 90, 71])
 student.display_details()
 print(f"Average Grade: {student.calculate_average()}")
